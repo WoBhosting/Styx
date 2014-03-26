@@ -18,7 +18,9 @@ public class FrontendServer implements Runnable{
 			server.start();
 			server.join();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+			System.out.println("Error has occured.");
+			System.out.println("Stack Trace:");
+			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
 	}
