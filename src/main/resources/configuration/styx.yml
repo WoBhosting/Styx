@@ -1,0 +1,5 @@
+message: This server is running the WoBHosting plugin!
+autorestart:
+   enabled: false
+   time: 60 #in minutes
+   message: Server is going down for restart!

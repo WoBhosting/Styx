@@ -1,1 +1,50 @@
+# Eclipse stuff
+/.classpath
+/.project
+/.settings
+
+# netbeans
+/nbproject
+
+# we use maven!
+/build.xml
+
+# maven
+/target
+
+# vim
+.*.sw[a-p]
+
+# various other potential build files
+/build
 /bin
+/dist
+/manifest.mf
+
+/world
+
+# Mac filesystem dust
+.DS_Store
+
+# intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+
+/src/main/resources/achievement
+/src/main/resources/lang
+
+src/.classpath
+
+src/main/.project
+
+src/main/.gitignore
+
+src/main/.classpath
+
+src/.project
+
+src/.gitignore
+
+.gitignore
